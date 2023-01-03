@@ -53,7 +53,6 @@ ifneq ($(filter blueline crosshatch bonito sargo flame coral sunfish bramble red
 PRODUCT_PACKAGES += \
     CellBroadcastReceiverOverlay \
     CellBroadcastServiceOverlay \
-    GooglePermissionControllerOverlay \
     MediaProviderOverlay \
     NetworkStackGoogleOverlay \
     PixelTetheringOverlay
