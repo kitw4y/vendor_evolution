@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Flag indicating whether the assist disclosure can be disabled using
+         ASSIST_DISCLOSURE_ENABLED. -->
+    <bool name="config_allowDisablingAssistDisclosure">true</bool>
+
+    <!-- Component name that should be granted Notification Assistant access -->
+    <string name="config_defaultAssistant" translatable="false">com.google.android.apps.searchlite</string>
+</resources>

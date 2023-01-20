@@ -35,6 +35,13 @@ PRODUCT_PACKAGES += \
     PixelDocumentsUIGoogleOverlay \
     SettingsGoogleOverlayPixel2022
 
+# Go Edition Overlays
+ifeq ($(TARGET_USES_GO_GAPPS),true)
+PRODUCT_PACKAGES += \
+    GmsConfigOverlayGalleryGo \
+    GmsConfigOverlaySearchGo
+endif
+
 # Now Playing Overlay
 ifneq ($(filter blueline crosshatch bonito sargo flame coral sunfish bramble redfin oriole raven bluejay panther cheetah, $(TARGET_DEVICE)),)
 PRODUCT_PACKAGES += \
