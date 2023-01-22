@@ -182,6 +182,10 @@ EXCLUDE_SYSTEMUI_TESTS := true
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.systemuicompilerfilter=speed
 
+# Cam
+PRODUCT_PACKAGES += \
+    Aperture
+
 # Themes
 PRODUCT_PACKAGES += \
     EvolutionThemesStub \
